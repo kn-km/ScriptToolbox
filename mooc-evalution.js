@@ -1,3 +1,4 @@
+//你只需要丢入console，回车然后听会歌就完了
 //评满分
 function click() {
     var radios = document.getElementsByClassName("d")
@@ -13,7 +14,6 @@ function next() {
     var button = document.getElementsByClassName("u-btn u-btn-default f-fl j-submitbtn")[0]
     button.click()
     setTimeout(nextPage, 1500)
-
 }
 
 //打开下一页
