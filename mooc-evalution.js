@@ -8,9 +8,8 @@ function click() {
     setTimeout(commit, 1000)
 }
 
-//下一页
+//提交
 function next() {
-    //提交
     var button = document.getElementsByClassName("u-btn u-btn-default f-fl j-submitbtn")[0]
     button.click()
     setTimeout(nextPage, 1500)
@@ -18,7 +17,6 @@ function next() {
 
 //打开下一页
 function nextPage() {
-    //打开下一页
     var nextpage = document.getElementsByClassName("j-gotonext")[0]
     nextpage.click()
     setTimeout(click, 1500)
