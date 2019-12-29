@@ -5,7 +5,7 @@ function click() {
     for (var i = 0; i < radios.length; i++) {
         radios[i].click()
     }
-    setTimeout(commit, 1000)
+    setTimeout(commit, 10)
 }
 
 //提交
@@ -25,7 +25,7 @@ function nextPage() {
 //评论
 function commit() {
     document.getElementsByName("inputtxt")[0].value = "你太棒了!"
-    setTimeout(next, 1000)
+    setTimeout(next, 10)
 }
 
 click();
